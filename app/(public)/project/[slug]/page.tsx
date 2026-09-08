@@ -1,3 +1,4 @@
+import { FALLBACK_PROJECTS } from "@/lib/fallback-data";
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -27,16 +28,23 @@ interface PageProps {
 export const revalidate = 60;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const project = await prisma.project.findUnique({
-    where: { slug: params.slug },
-  });
+  let project: any = null;
+  try {
+    project = await prisma.project.findUnique({
+      where: { slug: params.slug },
+    });
+  } catch {}
+
+  if (!project) {
+    project = FALLBACK_PROJECTS.find((p) => p.slug === params.slug);
+  }
 
   if (!project) {
     return { title: "Proyek Tidak Ditemukan" };
   }
 
   return {
-    title: `${project.title} — Spesifikasi Proyek`,
+    title: `${project.title} – Spesifikasi Proyek`,
     description:
       project.description?.slice(0, 160) ||
       `Spesifikasi teknis proyek ${project.title} oleh PT Surya Karya Energi.`,
@@ -44,22 +52,36 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function ProjectDetailPage({ params }: PageProps) {
-  const project = await prisma.project.findUnique({
-    where: { slug: params.slug },
-    include: {
-      images: {
-        orderBy: { sortOrder: "asc" },
+  let project: any = null;
+  try {
+    project = await prisma.project.findUnique({
+      where: { slug: params.slug },
+      include: {
+        images: {
+          orderBy: { sortOrder: "asc" },
+        },
       },
-    },
-  });
+    });
+  } catch {}
+
+  if (!project) {
+    project = FALLBACK_PROJECTS.find((p) => p.slug === params.slug);
+  }
 
   if (!project) notFound();
 
-  const relatedProjects = (await prisma.project.findMany({
-    where: { id: { not: project.id } },
-    take: 3,
-    orderBy: { createdAt: "desc" },
-  })) as ProjectCardData[];
+  let relatedProjects: ProjectCardData[] = [];
+  try {
+    relatedProjects = (await prisma.project.findMany({
+      where: { id: { not: project.id } },
+      take: 3,
+      orderBy: { createdAt: "desc" },
+    })) as ProjectCardData[];
+  } catch {}
+
+  if (relatedProjects.length === 0) {
+    relatedProjects = FALLBACK_PROJECTS.filter((p) => p.id !== project.id).slice(0, 3) as ProjectCardData[];
+  }
 
   const statusVariantMap = {
     Perencanaan: "warning",
@@ -102,7 +124,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             <span className="inline-block text-xs font-bold px-3.5 py-1.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/40 backdrop-blur-md">
               {project.category}
             </span>
-            <Badge variant={statusVariantMap[project.status] || "default"} className="font-semibold text-xs py-1 px-3">
+            <Badge variant={statusVariantMap[project.status as keyof typeof statusVariantMap] || "default"} className="font-semibold text-xs py-1 px-3">
               Status: {project.status}
             </Badge>
           </div>

@@ -1,3 +1,4 @@
+import { FALLBACK_PROJECTS } from "@/lib/fallback-data";
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -19,9 +20,10 @@ async function getAllProjects() {
     const projects = await prisma.project.findMany({
       orderBy: [{ isFeatured: "desc" }, { year: "desc" }, { createdAt: "desc" }],
     });
-    return projects as ProjectCardData[];
+    if (projects && projects.length > 0) return projects as ProjectCardData[];
+    return FALLBACK_PROJECTS as ProjectCardData[];
   } catch {
-    return [];
+    return FALLBACK_PROJECTS as ProjectCardData[];
   }
 }
 

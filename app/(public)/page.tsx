@@ -1,3 +1,4 @@
+import { FALLBACK_PROJECTS } from "@/lib/fallback-data";
 ﻿import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -33,9 +34,10 @@ async function getFeaturedProjects() {
       take: 3,
       orderBy: { year: "desc" },
     });
-    return projects as ProjectCardData[];
+    if (projects && projects.length > 0) return projects as ProjectCardData[];
+    return FALLBACK_PROJECTS.filter((p) => p.isFeatured).slice(0, 3) as ProjectCardData[];
   } catch {
-    return [];
+    return FALLBACK_PROJECTS.filter((p) => p.isFeatured).slice(0, 3) as ProjectCardData[];
   }
 }
 
