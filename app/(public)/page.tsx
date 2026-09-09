@@ -136,7 +136,7 @@ export default async function HomePage() {
             {/* Top Pill Badge */}
             <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-amber-400/20 border border-amber-300/40 backdrop-blur-md text-xs font-bold text-amber-200 uppercase tracking-wider shadow-sm">
               <Sun className="w-4 h-4 text-amber-300" />
-              <span>Penyedia Utama Solusi EPC & Solar PV Indonesia</span>
+              <span>PT Surya Karya Energi · Reliable Power, Sustainable Future</span>
             </div>
 
             {/* Main Headline */}
