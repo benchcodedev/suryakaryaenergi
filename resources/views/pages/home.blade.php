@@ -30,7 +30,7 @@
                     Terdepan di Indonesia
                 </h1>
 
-                <p class="text-base sm:text-lg text-stone-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                <p class="text-base sm:text-lg text-stone-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed text-justify lg:text-left">
                     PT Surya Karya Energi menyediakan layanan EPC (Engineering, Procurement, Construction) serta pemeliharaan O&M PLTS Atap komersial dan sistem penyimpanan baterai (BESS) berstandar internasional untuk efisiensi listrik fasilitas industri Anda.
                 </p>
 
@@ -124,7 +124,7 @@
             <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
                 Solusi Energi Bersih Terintegrasi dari Hulu ke Hilir
             </h2>
-            <p class="text-stone-600 text-base leading-relaxed">
+            <p class="text-stone-600 text-base leading-relaxed text-justify md:text-center">
                 Kami merancang, membangun, dan mengoperasikan sistem tenaga surya komersial dengan standar keandalan tinggi untuk menjaga stabilitas daya bisnis Anda.
             </p>
         </div>
@@ -286,7 +286,7 @@
             <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
                 Mengapa Bermitra dengan PT Surya Karya Energi?
             </h2>
-            <p class="text-stone-400 text-base leading-relaxed">
+            <p class="text-stone-400 text-base leading-relaxed text-justify md:text-center">
                 Kami menggabungkan rekayasa teknik tingkat tinggi, jaminan komponen internasional, dan komitmen keselamatan tanpa kompromi.
             </p>
         </div>

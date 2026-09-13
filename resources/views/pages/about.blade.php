@@ -14,7 +14,7 @@
         <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
             Profil & Komitmen <span class="text-brown-400">PT Surya Karya Energi</span>
         </h1>
-        <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed text-justify sm:text-center">
             Menghadirkan keandalan pasokan energi surya terintegrasi untuk mendukung pertumbuhan sektor industri dan percepatan transisi energi hijau di Indonesia.
         </p>
     </div>
@@ -31,10 +31,10 @@
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 leading-tight">
                     Mitra Terpercaya Solusi PLTS Industri & Skala Besar
                 </h2>
-                <p class="text-stone-600 text-base leading-relaxed">
+                <p class="text-stone-600 text-base leading-relaxed text-justify">
                     Berdiri dengan tekad mempercepat adopsi energi terbarukan di tanah air, <strong>PT Surya Karya Energi</strong> berkembang menjadi salah satu perusahaan EPC (Engineering, Procurement, Construction) dan pengembang PLTS terkemuka di Indonesia.
                 </p>
-                <p class="text-stone-600 text-base leading-relaxed">
+                <p class="text-stone-600 text-base leading-relaxed text-justify">
                     Kami memfokuskan layanan pada instalasi PLTS Atap (Rooftop Solar) kawasan industri, fasilitas manufaktur, pergudangan modern, pusat perbelanjaan, hingga pembangkit listrik tenaga surya skala utilitas (Ground-Mounted & Floating Solar) yang terintegrasi dengan Battery Energy Storage System (BESS).
                 </p>
                 <div class="grid grid-cols-2 gap-4 pt-4 border-t border-stone-100 text-sm">
@@ -82,7 +82,7 @@
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                 </div>
                 <h3 class="text-2xl font-extrabold text-white">Visi Perusahaan</h3>
-                <p class="text-stone-300 text-base leading-relaxed">
+                <p class="text-stone-300 text-base leading-relaxed text-justify">
                     Menjadi pemimpin penyedia solusi energi surya terintegrasi yang paling terpercaya, inovatif, dan berstandar internasional di Indonesia, mendorong kemandirian energi industri yang ramah lingkungan dan bernilai investasi tinggi.
                 </p>
             </div>
@@ -94,21 +94,21 @@
                 </div>
                 <h3 class="text-2xl font-extrabold text-white">Misi Perusahaan</h3>
                 <ul class="space-y-3 text-stone-300 text-sm leading-relaxed">
-                    <li class="flex items-start space-x-2">
-                        <span class="text-brown-400 font-bold mt-0.5">&bull;</span>
-                        <span>Menghadirkan layanan EPC PLTS berkualitas tinggi dengan modul Tier-1 dan garansi performa terukur.</span>
+                    <li class="flex items-start space-x-2.5">
+                        <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
+                        <span class="text-justify">Menghadirkan layanan EPC PLTS berkualitas tinggi dengan modul Tier-1 dan garansi performa terukur.</span>
                     </li>
-                    <li class="flex items-start space-x-2">
-                        <span class="text-brown-400 font-bold mt-0.5">&bull;</span>
-                        <span>Membantu sektor komersial dan manufaktur memangkas biaya operasional listrik hingga 40%.</span>
+                    <li class="flex items-start space-x-2.5">
+                        <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
+                        <span class="text-justify">Membantu sektor komersial dan manufaktur memangkas biaya operasional listrik hingga 40%.</span>
                     </li>
-                    <li class="flex items-start space-x-2">
-                        <span class="text-brown-400 font-bold mt-0.5">&bull;</span>
-                        <span>Menjunjung tinggi standar K3, tata kelola berintegritas, dan kepatuhan regulasi ESDM & PLN.</span>
+                    <li class="flex items-start space-x-2.5">
+                        <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
+                        <span class="text-justify">Menjunjung tinggi standar K3, tata kelola berintegritas, dan kepatuhan regulasi ESDM & PLN.</span>
                     </li>
-                    <li class="flex items-start space-x-2">
-                        <span class="text-brown-400 font-bold mt-0.5">&bull;</span>
-                        <span>Mengakselerasi target Net Zero Emission Indonesia tahun 2060 melalui teknologi energi terbarukan terdepan.</span>
+                    <li class="flex items-start space-x-2.5">
+                        <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
+                        <span class="text-justify">Mengakselerasi target Net Zero Emission Indonesia tahun 2060 melalui teknologi energi terbarukan terdepan.</span>
                     </li>
                 </ul>
             </div>
