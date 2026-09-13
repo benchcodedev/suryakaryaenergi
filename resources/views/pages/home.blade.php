@@ -117,11 +117,11 @@
 <!-- CORE SOLUTIONS & SERVICES -->
 <section class="py-20 bg-stone-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+        <div class="text-center max-w-4xl mx-auto space-y-4 mb-16">
             <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brown-100 text-brown-800 text-xs font-bold tracking-wide uppercase">
                 Layanan Unggulan Kami
             </div>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight">
                 Solusi Energi Bersih Terintegrasi dari Hulu ke Hilir
             </h2>
             <p class="text-stone-600 text-base leading-relaxed text-justify md:text-center">
@@ -279,11 +279,11 @@
 <!-- WHY CHOOSE US / COMPETITIVE ADVANTAGES -->
 <section class="py-20 bg-stone-900 text-white relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+        <div class="text-center max-w-4xl mx-auto space-y-4 mb-16">
             <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brown-500/20 text-brown-300 text-xs font-bold tracking-wide uppercase">
                 Keunggulan Kompetitif
             </div>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
                 Mengapa Bermitra dengan PT Surya Karya Energi?
             </h2>
             <p class="text-stone-400 text-base leading-relaxed text-justify md:text-center">
