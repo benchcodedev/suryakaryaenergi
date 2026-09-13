@@ -41,7 +41,7 @@
                         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </a>
                     <a href="{{ route('projects.index') }}" class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-xl bg-stone-800/80 hover:bg-stone-800 border border-stone-700 text-stone-200 font-semibold text-base transition-all duration-300 hover:border-brown-500/50">
-                        <span>Lihat Studi Kasus</span>
+                        <span>Lihat Project</span>
                         <svg class="w-5 h-5 ml-2 text-brown-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                     </a>
                 </div>
@@ -207,7 +207,7 @@
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
             <div>
                 <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brown-100 text-brown-800 text-xs font-bold tracking-wide uppercase mb-3">
-                    Studi Kasus Proyek
+                    Portofolio Project
                 </div>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
                     Portofolio Instalasi Unggulan

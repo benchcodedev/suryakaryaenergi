@@ -260,7 +260,7 @@
                     <ul class="space-y-2 text-sm">
                         <li><a href="{{ route('about') }}" class="hover:text-brown-400 transition">Profil & Sejarah</a></li>
                         <li><a href="{{ route('about') }}#visi-misi" class="hover:text-brown-400 transition">Visi, Misi & Nilai Inti</a></li>
-                        <li><a href="{{ route('projects.index') }}" class="hover:text-brown-400 transition">Portofolio Studi Kasus</a></li>
+                        <li><a href="{{ route('projects.index') }}" class="hover:text-brown-400 transition">Portofolio Project</a></li>
                         <li><a href="{{ route('sustainability') }}" class="hover:text-brown-400 transition">Komitmen ESG & Dekarbonisasi</a></li>
                         <li><a href="{{ route('contact') }}" class="hover:text-brown-400 transition">Lokasi Kantor & Kontak</a></li>
                         <li><a href="{{ route('admin.login') }}" class="text-stone-500 hover:text-brown-400 transition">Login Admin CMS</a></li>
