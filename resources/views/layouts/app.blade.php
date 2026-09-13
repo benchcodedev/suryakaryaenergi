@@ -102,11 +102,6 @@
             </div>
             <div class="flex items-center space-x-4">
                 <span class="text-brown-400 font-medium italic tracking-wide">"Reliable Power, Sustainable Future"</span>
-                <span class="text-stone-700">|</span>
-                <a href="{{ route('admin.login') }}" class="text-stone-400 hover:text-brown-400 transition flex items-center space-x-1">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
-                    <span>Admin Portal</span>
-                </a>
             </div>
         </div>
     </div>
@@ -186,9 +181,6 @@
                 <a href="{{ route('contact') }}" class="w-full text-center py-3 rounded-xl bg-brown-500 text-white font-semibold text-sm shadow-md">
                     Konsultasi Teknis Gratis
                 </a>
-                <a href="{{ route('admin.login') }}" class="w-full text-center py-2 text-xs text-stone-500 hover:text-brown-600">
-                    Masuk ke Admin Portal
-                </a>
             </div>
         </div>
     </header>
@@ -263,7 +255,6 @@
                         <li><a href="{{ route('projects.index') }}" class="hover:text-brown-400 transition">Portofolio Project</a></li>
                         <li><a href="{{ route('sustainability') }}" class="hover:text-brown-400 transition">Komitmen ESG & Dekarbonisasi</a></li>
                         <li><a href="{{ route('contact') }}" class="hover:text-brown-400 transition">Lokasi Kantor & Kontak</a></li>
-                        <li><a href="{{ route('admin.login') }}" class="text-stone-500 hover:text-brown-400 transition">Login Admin CMS</a></li>
                     </ul>
                 </div>
 

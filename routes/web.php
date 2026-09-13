@@ -30,6 +30,14 @@ Route::get('/project/{slug}', [ProjectController::class, 'show'])->name('project
 |--------------------------------------------------------------------------
 */
 
+// Direct /admin route (e.g. suryakaryaenergi.com/admin)
+Route::get('/admin', function () {
+    if (auth()->check()) {
+        return redirect()->route('admin.dashboard');
+    }
+    return redirect()->route('admin.login');
+})->name('admin');
+
 Route::get('/admin/login', [AdminAuthController::class, 'showLogin'])->name('admin.login');
 Route::post('/admin/login', [AdminAuthController::class, 'login'])->name('admin.login.post');
 Route::post('/admin/logout', [AdminAuthController::class, 'logout'])->name('admin.logout');
