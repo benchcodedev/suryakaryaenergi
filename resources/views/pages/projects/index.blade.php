@@ -9,7 +9,7 @@
 <section class="bg-gradient-to-b from-stone-900 to-stone-950 text-white py-16 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-brown-500/20 border border-brown-500/30 text-brown-300 text-xs font-semibold uppercase tracking-wider mb-4">
-            Rekam Jejak Enjiniring
+            Rekam Jejak Engineering
         </div>
         <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
             Portofolio <span class="text-brown-400">Proyek Unggulan</span>

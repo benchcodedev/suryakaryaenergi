@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Hubungi Kami - PT Surya Karya Energi')
-@section('meta_description', 'Hubungi tim konsultan dan enjiniring PT Surya Karya Energi untuk konsultasi gratis, studi kelayakan PLTS, atau penawaran sistem energi bersih industri.')
+@section('meta_description', 'Hubungi tim konsultan dan engineering PT Surya Karya Energi untuk konsultasi gratis, studi kelayakan PLTS, atau penawaran sistem energi bersih industri.')
 
 @section('content')
 
@@ -9,7 +9,7 @@
 <section class="bg-gradient-to-b from-stone-900 to-stone-950 text-white py-16 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-brown-500/20 border border-brown-500/30 text-brown-300 text-xs font-semibold uppercase tracking-wider mb-4">
-            Layanan Pelanggan & Enjiniring
+            Layanan Pelanggan & Engineering
         </div>
         <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
             Hubungi Tim <span class="text-brown-400">Surya Karya Energi</span>

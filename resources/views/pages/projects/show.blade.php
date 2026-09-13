@@ -92,7 +92,7 @@
 
                 <!-- Narrative & Description -->
                 <div class="space-y-4 pt-4 border-t border-stone-200">
-                    <h2 class="text-xl font-extrabold text-stone-900">Deskripsi & Ruang Lingkup Enjiniring</h2>
+                    <h2 class="text-xl font-extrabold text-stone-900">Deskripsi & Ruang Lingkup Engineering</h2>
                     <div class="text-stone-700 text-sm sm:text-base leading-relaxed space-y-4">
                         {!! nl2br(e($project->description)) !!}
                     </div>

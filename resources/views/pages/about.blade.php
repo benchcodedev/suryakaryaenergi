@@ -26,7 +26,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div class="lg:col-span-6 space-y-6">
                 <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brown-100 text-brown-800 text-xs font-bold uppercase">
-                    Dedikasi Enjiniring Energi
+                    Dedikasi Engineering Energi
                 </div>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 leading-tight">
                     Mitra Terpercaya Solusi PLTS Industri & Skala Besar
@@ -63,7 +63,7 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent flex items-end p-8">
                         <div class="text-white">
                             <div class="text-brown-400 font-bold text-sm uppercase">Standar Keamanan Tinggi</div>
-                            <div class="text-lg font-extrabold">Implementasi Enjiniring Presisi & Kepatuhan Regulasi Penuh</div>
+                            <div class="text-lg font-extrabold">Implementasi Engineering Presisi & Kepatuhan Regulasi Penuh</div>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
 
             <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
                 <div class="text-2xl font-black text-brown-500">04. INNOVATION</div>
-                <h3 class="text-lg font-bold text-stone-900">Inovasi Enjiniring</h3>
+                <h3 class="text-lg font-bold text-stone-900">Inovasi Engineering</h3>
                 <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
                     Penerapan teknologi solar PV bifacial terbaru, integrasi microgrid cerdas, dan telemetri pemantauan berbasis IoT.
                 </p>

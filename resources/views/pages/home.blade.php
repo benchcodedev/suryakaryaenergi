@@ -346,7 +346,7 @@
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
             <a href="{{ route('contact') }}" class="px-8 py-3.5 rounded-xl bg-stone-950 hover:bg-stone-900 text-white font-bold text-sm shadow-xl transition transform hover:-translate-y-0.5">
-                Hubungi Tim Enjiniring Kami
+                Hubungi Tim Engineering Kami
             </a>
             <a href="https://wa.me/6281234567890?text=Halo%20PT%20Surya%20Karya%20Energi,%20saya%20tertarik%20konsultasi%20solusi%20PLTS%20industri" 
                target="_blank" 
