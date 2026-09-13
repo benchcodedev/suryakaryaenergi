@@ -223,7 +223,7 @@
                             </span>
                         </div>
                     </a>
-                    <p class="text-sm leading-relaxed text-stone-400 pr-4">
+                    <p class="text-sm leading-relaxed text-stone-400 pr-4 text-justify">
                         PT Surya Karya Energi adalah perusahaan EPC dan penyedia solusi energi surya (PLTS) industri terintegrasi di Indonesia. Berkomitmen menghadirkan keandalan pasokan listrik hijau berkualitas tinggi, efisiensi investasi jangka panjang, dan akselerasi target Net Zero Emission.
                     </p>
                     <div class="flex items-center space-x-3 pt-2">
