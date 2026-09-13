@@ -137,7 +137,7 @@
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">PLTS Atap Industri</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">
+                    <p class="text-sm text-stone-600 leading-relaxed text-justify">
                         Pemanfaatan atap pabrik, gudang, dan gedung komersial untuk menekan biaya tagihan listrik PLN dan meningkatkan profil kepatuhan ESG perusahaan.
                     </p>
                 </div>
@@ -154,7 +154,7 @@
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">PLTS Skala Utilitas</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">
+                    <p class="text-sm text-stone-600 leading-relaxed text-justify">
                         Pembangunan pembangkit listrik tenaga surya skala besar (Ground-Mounted & Floating Solar) dengan kajian geoteknik dan sinkronisasi gardu induk bertegangan menengah/tinggi.
                     </p>
                 </div>
@@ -171,7 +171,7 @@
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">Sistem Baterai (BESS)</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">
+                    <p class="text-sm text-stone-600 leading-relaxed text-justify">
                         Sistem penyimpanan daya baterai lithium canggih untuk peak-shaving, cadangan daya darurat (UPS terpusat), dan stabilisasi frekuensi tegangan jaringan industri.
                     </p>
                 </div>
@@ -188,7 +188,7 @@
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">O&M & IoT Monitoring</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">
+                    <p class="text-sm text-stone-600 leading-relaxed text-justify">
                         Layanan operasional menyeluruh, pembersihan panel berkala, inspeksi termografi drone, dan pemantauan sensor performa jarak jauh selama 24/7.
                     </p>
                 </div>
@@ -254,7 +254,7 @@
                                 <a href="{{ route('projects.show', $project->slug) }}">{{ $project->title }}</a>
                             </h3>
                             <p class="text-xs text-stone-600 mt-2 font-medium">Klien: {{ $project->client }}</p>
-                            <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                            <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed text-justify">
                                 {{ $project->description }}
                             </p>
                         </div>
@@ -297,7 +297,7 @@
                     01
                 </div>
                 <h3 class="text-lg font-bold text-white">Tier-1 PV & Inverter</h3>
-                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
                     Hanya mengaplikasikan modul fotovoltaik dan inverter berperingkat BloombergNEF Tier-1 untuk efisiensi konversi daya optimal.
                 </p>
             </div>
@@ -307,7 +307,7 @@
                     02
                 </div>
                 <h3 class="text-lg font-bold text-white">Garansi 25 Tahun</h3>
-                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
                     Jaminan kinerja output daya hingga 25 tahun dengan komitmen penggantian dan kompensasi degradasi yang transparan.
                 </p>
             </div>
@@ -317,7 +317,7 @@
                     03
                 </div>
                 <h3 class="text-lg font-bold text-white">Monitoring IoT 24/7</h3>
-                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
                     Akses dashboard telemetri real-time yang memantau performa kilowatt-hour, radiasi surya, dan peringatan preventif otomatis.
                 </p>
             </div>
@@ -327,7 +327,7 @@
                     04
                 </div>
                 <h3 class="text-lg font-bold text-white">Zero Accident & K3</h3>
-                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
                     Penerapan standar keselamatan kerja bertaraf ISO 45001 dan sertifikasi personil teknis bersertifikasi BNSP & ESDM.
                 </p>
             </div>

@@ -105,7 +105,7 @@
                                 <div class="text-xs text-stone-600 mt-2 font-medium">
                                     <span class="text-stone-400">Klien:</span> {{ $project->client }}
                                 </div>
-                                <p class="text-xs text-stone-500 mt-2 line-clamp-3 leading-relaxed">
+                                <p class="text-xs text-stone-500 mt-2 line-clamp-3 leading-relaxed text-justify">
                                     {{ $project->description }}
                                 </p>
                             </div>

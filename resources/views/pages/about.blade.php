@@ -135,7 +135,7 @@
             <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
                 <div class="text-2xl font-black text-brown-500">01. RELIABILITY</div>
                 <h3 class="text-lg font-bold text-stone-900">Keandalan Sistem</h3>
-                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
                     Setiap kilowatt-hour yang dihasilkan dipastikan stabil, aman, dan dapat diandalkan untuk menopang produksi industri 24/7.
                 </p>
             </div>
@@ -143,7 +143,7 @@
             <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
                 <div class="text-2xl font-black text-brown-500">02. SUSTAINABILITY</div>
                 <h3 class="text-lg font-bold text-stone-900">Keberlanjutan</h3>
-                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
                     Fokus jangka panjang dalam menjaga kelestarian lingkungan dan membantu mitra bisnis memenuhi standar dekarbonisasi global.
                 </p>
             </div>
@@ -151,7 +151,7 @@
             <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
                 <div class="text-2xl font-black text-brown-500">03. INTEGRITY</div>
                 <h3 class="text-lg font-bold text-stone-900">Integritas Bisnis</h3>
-                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
                     Transparansi penuh dalam kalkulasi kapasitas, spesifikasi komponen orisinal, dan pemenuhan seluruh regulasi keselamatan.
                 </p>
             </div>
@@ -159,7 +159,7 @@
             <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
                 <div class="text-2xl font-black text-brown-500">04. INNOVATION</div>
                 <h3 class="text-lg font-bold text-stone-900">Inovasi Enjiniring</h3>
-                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
                     Penerapan teknologi solar PV bifacial terbaru, integrasi microgrid cerdas, dan telemetri pemantauan berbasis IoT.
                 </p>
             </div>
