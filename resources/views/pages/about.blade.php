@@ -32,10 +32,7 @@
                     Mitra Terpercaya Solusi PLTS Industri & Skala Besar
                 </h2>
                 <p class="text-stone-600 text-base leading-relaxed text-justify">
-                    Berdiri dengan tekad mempercepat adopsi energi terbarukan di tanah air, <strong>PT Surya Karya Energi</strong> berkembang menjadi salah satu perusahaan EPC (Engineering, Procurement, Construction) dan pengembang PLTS terkemuka di Indonesia.
-                </p>
-                <p class="text-stone-600 text-base leading-relaxed text-justify">
-                    Kami memfokuskan layanan pada instalasi PLTS Atap (Rooftop Solar) kawasan industri, fasilitas manufaktur, pergudangan modern, pusat perbelanjaan, hingga pembangkit listrik tenaga surya skala utilitas (Ground-Mounted & Floating Solar) yang terintegrasi dengan Battery Energy Storage System (BESS).
+                    <strong>PT Surya Karya Energi (SKE)</strong> didirikan tahun 2019 dengan fokus pada pengelolaan dan optimalisasi PLTD dan PLTMG di wilayah strategis Indonesia. Kami menangani siklus proyek lengkap: persiapan, pembangunan, COD, operasi, dan pemeliharaan. Tim profesional kami mengawal proses secara menyeluruh di setiap lokasi proyek.
                 </p>
                 <div class="grid grid-cols-2 gap-4 pt-4 border-t border-stone-100 text-sm">
                     <div class="flex items-center space-x-2 text-stone-700">

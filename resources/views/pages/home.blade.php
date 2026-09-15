@@ -31,7 +31,7 @@
                 </h1>
 
                 <p class="text-base sm:text-lg text-stone-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed text-justify">
-                    PT Surya Karya Energi menyediakan layanan EPC (Engineering, Procurement, Construction) serta pemeliharaan O&M PLTS Atap komersial dan sistem penyimpanan baterai (BESS) berstandar internasional untuk efisiensi listrik fasilitas industri Anda.
+                    PT Surya Karya Energi menyediakan layanan EPC (Engineering, Procurement, Construction) yang fokus pada pembangunan pembangkitan listrik tenaga diesel (PLTD) dan pembangkitan listrik tenaga mesin gas (PLTMG). Dengan menggunakan EPC, kami menjamin proyek akan selesai tepat waktu, berkualitas dan sesuai standard dari PLN. Baik untuk kebutuhan listrik daerah terpencil maupun transisi ke energi lebih bersih. Kami siap menjadi mitra Anda.
                 </p>
 
                 <!-- CTA Buttons -->
@@ -348,7 +348,7 @@
             <a href="{{ route('contact') }}" class="px-8 py-3.5 rounded-xl bg-stone-950 hover:bg-stone-900 text-white font-bold text-sm shadow-xl transition transform hover:-translate-y-0.5">
                 Hubungi Tim Engineering Kami
             </a>
-            <a href="https://wa.me/6281234567890?text=Halo%20PT%20Surya%20Karya%20Energi,%20saya%20tertarik%20konsultasi%20solusi%20PLTS%20industri" 
+            <a href="https://wa.me/628112997500?text=Halo%20PT%20Surya%20Karya%20Energi,%20saya%20tertarik%20konsultasi%20layanan%20EPC%20dan%20pembangkit%20listrik" 
                target="_blank" 
                class="px-8 py-3.5 rounded-xl bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/40 text-white font-bold text-sm transition">
                 Chat WhatsApp Langsung

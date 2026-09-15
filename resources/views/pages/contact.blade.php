@@ -43,11 +43,10 @@
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                         </div>
                         <div class="min-w-0 flex-1">
-                            <h4 class="font-bold text-stone-900 text-sm">Alamat Kantor Pusat</h4>
+                            <h4 class="font-bold text-stone-900 text-sm">Alamat Kantor</h4>
                             <p class="text-stone-600 text-xs mt-0.5 leading-relaxed">
-                                Menara Palma Lt. 12, Jl. H.R. Rasuna Said Blok X-2 Kav. 6, Kuningan, Setiabudi, Jakarta Selatan 12950
+                                Perum Pandan Sari 02 RT/RW 10/04 Kedungcino, Jepara, Kab. Jepara, Jawa Tengah
                             </p>
-                            <p class="text-stone-500 text-[11px] mt-0.5 italic">Workshop: Kawasan Industri MM2100 Cikarang Barat, Bekasi</p>
                         </div>
                     </div>
 
@@ -58,10 +57,10 @@
                         </div>
                         <div class="min-w-0 flex-1">
                             <h4 class="font-bold text-stone-900 text-sm">Telepon & WhatsApp Cepat</h4>
-                            <p class="text-stone-600 text-xs mt-0.5">Telepon Kantor: +62 21 8990 1234</p>
+                            <p class="text-stone-600 text-xs mt-0.5">Telepon: +62-811-2997-500</p>
                             <div class="flex items-center space-x-2 mt-0.5 flex-wrap">
-                                <span class="text-stone-600 text-xs">Hotline: +62 812-3456-7890</span>
-                                <a href="https://wa.me/6281234567890?text=Halo%20PT%20Surya%20Karya%20Energi,%20saya%20tertarik%20konsultasi%20solusi%20PLTS%20industri" 
+                                <span class="text-stone-600 text-xs">Hotline: +62-811-2997-500</span>
+                                <a href="https://wa.me/628112997500?text=Halo%20PT%20Surya%20Karya%20Energi,%20saya%20tertarik%20konsultasi%20layanan%20EPC%20dan%20pembangkit%20listrik" 
                                    target="_blank" 
                                    class="inline-flex items-center text-xs font-semibold text-emerald-700 hover:text-emerald-800 hover:underline">
                                     &rarr; Chat WhatsApp Langsung
@@ -78,10 +77,7 @@
                         <div class="min-w-0 flex-1">
                             <h4 class="font-bold text-stone-900 text-sm">Email Resmi</h4>
                             <p class="text-stone-600 text-xs mt-0.5">
-                                <a href="mailto:info@suryakaryaenergi.com" class="hover:text-brown-600 hover:underline">info@suryakaryaenergi.com</a>
-                            </p>
-                            <p class="text-stone-600 text-xs mt-0.5">
-                                <a href="mailto:proyek@suryakaryaenergi.com" class="hover:text-brown-600 hover:underline">proyek@suryakaryaenergi.com</a>
+                                <a href="mailto:suryakaryaenergi@gmail.com" class="hover:text-brown-600 hover:underline">suryakaryaenergi@gmail.com</a>
                             </p>
                         </div>
                     </div>

@@ -43,6 +43,53 @@
     </div>
 </section>
 
+<!-- STRATEGI & KOMITMEN TRANSFORMASI ENERGI -->
+<section class="py-16 bg-white border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-br from-stone-900 via-stone-850 to-stone-950 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden border border-stone-800">
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-brown-500/20 border border-brown-500/30 text-brown-300 text-xs font-bold uppercase tracking-wider">
+                    Visi & Arah Transformasi Berkelanjutan
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-white leading-relaxed tracking-tight text-justify">
+                    Menjadi perusahaan swasta terkemuka penyedia solusi energi konvensional andal dan efisien, serta memimpin transformasi energi terbarukan untuk masa depan hijau.
+                </h2>
+                <div class="pt-6 border-t border-stone-800">
+                    <p class="text-xs sm:text-sm font-semibold text-brown-300 uppercase tracking-wider mb-5">
+                        Sehingga dapat:
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
+                            <div class="w-10 h-10 rounded-xl bg-brown-500/20 text-brown-400 font-bold flex items-center justify-center text-sm">
+                                01
+                            </div>
+                            <p class="text-sm text-stone-200 leading-relaxed text-justify">
+                                Menjamin keandalan dan efisiensi operasional PLTD & PLTMG.
+                            </p>
+                        </div>
+                        <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
+                            <div class="w-10 h-10 rounded-xl bg-brown-500/20 text-brown-400 font-bold flex items-center justify-center text-sm">
+                                02
+                            </div>
+                            <p class="text-sm text-stone-200 leading-relaxed text-justify">
+                                Membangun kemitraan jangka panjang dengan transparansi dan profesionalisme.
+                            </p>
+                        </div>
+                        <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
+                            <div class="w-10 h-10 rounded-xl bg-brown-500/20 text-brown-400 font-bold flex items-center justify-center text-sm">
+                                03
+                            </div>
+                            <p class="text-sm text-stone-200 leading-relaxed text-justify">
+                                Mengembangkan teknologi, riset, dan SDM untuk energi terbarukan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- 3 PILAR ESG -->
 <section class="py-20 bg-stone-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

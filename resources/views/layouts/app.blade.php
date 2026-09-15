@@ -93,11 +93,11 @@
             <div class="flex items-center space-x-6">
                 <span class="flex items-center space-x-1.5 text-stone-400">
                     <svg class="w-3.5 h-3.5 text-brown-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                    <span>Kawasan Industri MM2100 & Jakarta, Indonesia</span>
+                    <span>Jepara, Jawa Tengah, Indonesia</span>
                 </span>
                 <span class="flex items-center space-x-1.5 text-stone-400">
                     <svg class="w-3.5 h-3.5 text-brown-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                    <span>info@suryakaryaenergi.com</span>
+                    <span>suryakaryaenergi@gmail.com</span>
                 </span>
             </div>
             <div class="flex items-center space-x-4">
@@ -192,7 +192,7 @@
 
     <!-- FLOATING WHATSAPP BUTTON -->
     <aside aria-label="Kontak Cepat WhatsApp" class="fixed bottom-6 right-6 z-40">
-        <a href="https://wa.me/6281234567890?text=Halo%20PT%20Surya%20Karya%20Energi,%20saya%20tertarik%20konsultasi%20solusi%20PLTS%20industri" 
+        <a href="https://wa.me/628112997500?text=Halo%20PT%20Surya%20Karya%20Energi,%20saya%20tertarik%20konsultasi%20layanan%20EPC%20dan%20pembangkit%20listrik" 
            target="_blank" 
            rel="noopener noreferrer" 
            class="group relative flex items-center justify-center w-14 h-14 bg-emerald-600 hover:bg-emerald-500 text-white rounded-full shadow-2xl transition-all duration-300 hover:scale-110 focus:outline-none">
@@ -264,15 +264,15 @@
                     <div class="space-y-2.5 text-sm">
                         <div class="flex items-start space-x-2.5">
                             <svg class="w-4 h-4 text-brown-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            <span>Menara Palma Lt. 12, Jl. H.R. Rasuna Said Blok X-2 Kav. 6, Kuningan, Jakarta Selatan 12950</span>
+                            <span>Perum Pandan Sari 02 RT/RW 10/04 Kedungcino, Jepara, Kab. Jepara, Jawa Tengah</span>
                         </div>
                         <div class="flex items-center space-x-2.5">
                             <svg class="w-4 h-4 text-brown-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                            <span>+62 21 8990 1234 / +62 812-3456-7890</span>
+                            <span>+62-811-2997-500</span>
                         </div>
                         <div class="flex items-center space-x-2.5">
                             <svg class="w-4 h-4 text-brown-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                            <span>contact@suryakaryaenergi.com</span>
+                            <span>suryakaryaenergi@gmail.com</span>
                         </div>
                     </div>
                 </div>

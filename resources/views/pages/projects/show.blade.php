@@ -168,7 +168,7 @@
                         <a href="{{ route('contact') }}" class="w-full inline-flex items-center justify-center px-5 py-3 rounded-xl bg-brown-500 hover:bg-brown-600 text-white font-bold text-sm shadow-md transition">
                             Konsultasikan Proyek Serupa
                         </a>
-                        <a href="https://wa.me/6281234567890?text=Halo%20SKE,%20saya%20tertarik%20dengan%20proyek%20{{ urlencode($project->title) }}" 
+                        <a href="https://wa.me/628112997500?text=Halo%20SKE,%20saya%20tertarik%20dengan%20proyek%20{{ urlencode($project->title) }}" 
                            target="_blank" 
                            class="w-full mt-2.5 inline-flex items-center justify-center px-5 py-2.5 rounded-xl border border-stone-300 hover:border-emerald-500 text-stone-700 hover:text-emerald-700 font-semibold text-xs transition">
                             Tanya via WhatsApp Langsung
