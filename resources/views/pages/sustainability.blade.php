@@ -15,31 +15,8 @@
             Komitmen Keberlanjutan & <span class="text-brown-400">Dampak ESG</span>
         </h1>
         <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Menghubungkan target dekarbonisasi korporasi dengan solusi energi surya nyata yang terukur, transparan, dan berdampak positif bagi bumi.
+            Menghubungkan target dekarbonisasi korporasi dengan solusi energi nyata yang terukur, transparan, dan berdampak positif bagi bumi.
         </p>
-    </div>
-</section>
-
-<!-- IMPACT COUNTERS -->
-<section class="py-12 bg-white border-b border-stone-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div class="p-6 rounded-2xl bg-stone-50 border border-stone-200">
-                <div class="text-3xl sm:text-4xl font-extrabold text-emerald-600">68.000+ Ton</div>
-                <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">CO2 Dihindari Setiap Tahun</div>
-                <p class="text-xs text-stone-500 mt-2">Dihitung dari kumulatif energi bersih yang dihasilkan instalasi PLTS aktif kami.</p>
-            </div>
-            <div class="p-6 rounded-2xl bg-stone-50 border border-stone-200">
-                <div class="text-3xl sm:text-4xl font-extrabold text-brown-600">1.200.000+</div>
-                <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">Pohon Setara Ditanam</div>
-                <p class="text-xs text-stone-500 mt-2">Dampak ekologis langsung terhadap penyerapan emisi karbon dioksida.</p>
-            </div>
-            <div class="p-6 rounded-2xl bg-stone-50 border border-stone-200">
-                <div class="text-3xl sm:text-4xl font-extrabold text-brown-600">58.000+ MWh</div>
-                <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">Energi Hijau Bersih Dihasilkan</div>
-                <p class="text-xs text-stone-500 mt-2">Mengurangi ketergantungan industri terhadap bahan bakar fosil batu bara.</p>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -64,7 +41,7 @@
                                 01
                             </div>
                             <p class="text-sm text-stone-200 leading-relaxed text-justify">
-                                Menjamin keandalan dan efisiensi operasional PLTD & PLTMG.
+                                Menjamin keandalan dan efisiensi operasional PLTD, PLTMG, dan PLTS.
                             </p>
                         </div>
                         <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
@@ -72,7 +49,7 @@
                                 02
                             </div>
                             <p class="text-sm text-stone-200 leading-relaxed text-justify">
-                                Membangun kemitraan jangka panjang dengan transparansi dan profesionalisme.
+                                Membangun kemitraan jangka panjang yang saling menguntungkan dengan klien melalui layanan prima, transparan, dan berintegritas.
                             </p>
                         </div>
                         <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
@@ -80,7 +57,7 @@
                                 03
                             </div>
                             <p class="text-sm text-stone-200 leading-relaxed text-justify">
-                                Mengembangkan teknologi, riset, dan SDM untuk energi terbarukan.
+                                Mengembangkan teknologi, riset, dan sumber daya manusia untuk menjawab tantangan transisi energi masa depan.
                             </p>
                         </div>
                     </div>
@@ -116,15 +93,11 @@
                     <ul class="space-y-2.5 text-xs sm:text-sm text-stone-600 mt-4 leading-relaxed">
                         <li class="flex items-start space-x-2">
                             <span class="text-emerald-500 font-bold">&check;</span>
-                            <span>Akselerasi penggantian energi fosil dengan radiasi surya bersih.</span>
+                            <span>Akselerasi penggantian energi fosil dengan radiasi surya bersih dan teknologi rendah emisi.</span>
                         </li>
                         <li class="flex items-start space-x-2">
                             <span class="text-emerald-500 font-bold">&check;</span>
-                            <span>Manajemen limbah fotovoltaik bersertifikasi dan daur ulang material.</span>
-                        </li>
-                        <li class="flex items-start space-x-2">
-                            <span class="text-emerald-500 font-bold">&check;</span>
-                            <span>Penerapan standar ISO 14001:2015 dalam seluruh tahapan EPC.</span>
+                            <span>Penerapan standar ISO 14001:2015 dalam seluruh tahapan EPC dan operasional.</span>
                         </li>
                     </ul>
                 </div>
@@ -147,7 +120,7 @@
                         </li>
                         <li class="flex items-start space-x-2">
                             <span class="text-brown-500 font-bold">&check;</span>
-                            <span>Pemberdayaan teknisi lokal melalui pelatihan instalasi surya bersertifikasi.</span>
+                            <span>Pemberdayaan teknisi lokal melalui pelatihan instalasi energi pembangkitan bersertifikasi.</span>
                         </li>
                         <li class="flex items-start space-x-2">
                             <span class="text-brown-500 font-bold">&check;</span>

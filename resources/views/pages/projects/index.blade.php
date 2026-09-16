@@ -15,7 +15,7 @@
             Portofolio <span class="text-brown-400">Proyek Unggulan</span>
         </h1>
         <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Eksplorasi portofolio instalasi sistem pembangkit listrik tenaga surya dan baterai penyimpanan skala industri kami di seluruh wilayah Indonesia.
+            Eksplorasi portofolio instalasi sistem pembangkit listrik skala industri kami di seluruh wilayah Indonesia.
         </p>
     </div>
 </section>

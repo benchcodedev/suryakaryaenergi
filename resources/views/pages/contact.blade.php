@@ -31,7 +31,7 @@
                 <div>
                     <h2 class="text-2xl font-extrabold text-stone-900 mb-2">Kantor Pusat & Operasional</h2>
                     <p class="text-stone-600 text-sm leading-relaxed">
-                        Kami siap melayani kebutuhan konsultasi, survei teknis lokasi, dan pengajuan studi kelayakan PLTS di seluruh kepulauan Indonesia.
+                        Kami siap melayani kebutuhan konsultasi, survei teknis lokasi, dan pengajuan studi kelayakan PLTD, PLTMG, dan PLTS di seluruh kepulauan Indonesia.
                     </p>
                 </div>
 
@@ -103,7 +103,7 @@
                     <div>
                         <h3 class="text-2xl font-extrabold text-stone-900 mb-2">Kirim Formulir Permintaan</h3>
                         <p class="text-stone-600 text-xs sm:text-sm mb-6 leading-relaxed">
-                            Isi data fasilitas Anda untuk menerima kalkulasi potensi penghematan listrik dan rekomendasi kapasitas PLTS gratis dari tim engineering kami.
+                            Isi data fasilitas Anda untuk menerima estimasi teknis dan rekomendasi sistem pembangkitan energi (PLTD, PLTMG, dan PLTS) dari tim engineering kami.
                         </p>
 
                         @if($errors->any())
@@ -150,11 +150,12 @@
                                 <div>
                                     <label class="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1.5">Layanan yang Diminati</label>
                                     <select name="service" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-sm focus:ring-2 focus:ring-brown-500 focus:border-brown-500 bg-white">
-                                        <option value="PLTS Atap Industri (Rooftop)">PLTS Atap Industri (Rooftop Solar)</option>
-                                        <option value="PLTS Ground-Mounted Skala Utilitas">PLTS Skala Utilitas (Ground-Mounted)</option>
+                                        <option value="PLTD Skala Utilitas">PLTD Skala Utilitas</option>
+                                        <option value="PLTMG Skala Utilitas">PLTMG Skala Utilitas</option>
+                                        <option value="PLTS Atap (Rooftop Solar)">PLTS Atap (Rooftop Solar)</option>
+                                        <option value="PLTS Skala Utilitas (Ground-Mounted)">PLTS Skala Utilitas (Ground-Mounted)</option>
                                         <option value="Battery Energy Storage System (BESS)">Sistem Baterai (BESS)</option>
-                                        <option value="O&M & Pemeliharaan Panel Surya">Operasi & Pemeliharaan (O&M)</option>
-                                        <option value="Audit Energi & Konsultasi ESG">Audit Energi & Dekarbonisasi ESG</option>
+                                        <option value="Operasi & Pemeliharaan (O&M)">Operasi & Pemeliharaan (O&M)</option>
                                         <option value="Lainnya">Lainnya</option>
                                     </select>
                                 </div>
@@ -162,7 +163,7 @@
                                 <!-- Subject -->
                                 <div>
                                     <label class="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1.5">Subjek</label>
-                                    <input type="text" name="subject" value="{{ old('subject') }}" placeholder="Konsultasi Pemasangan PLTS 1 MWp" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-sm focus:ring-2 focus:ring-brown-500 focus:border-brown-500 bg-white">
+                                    <input type="text" name="subject" value="{{ old('subject') }}" placeholder="Konsultasi Pembangkit Listrik / PLTS" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-sm focus:ring-2 focus:ring-brown-500 focus:border-brown-500 bg-white">
                                 </div>
                             </div>
 

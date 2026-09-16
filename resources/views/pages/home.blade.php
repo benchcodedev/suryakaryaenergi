@@ -25,13 +25,13 @@
                 <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
                     Solusi Terintegrasi <br class="hidden sm:block">
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-brown-400 via-gold-400 to-brown-300">
-                        PLTS Industri & Utilitas
+                        PLTD, PLTMG dan PLTS
                     </span> <br class="hidden sm:block">
-                    Terdepan di Indonesia
+                    Industri & Utilitas Terdepan Indonesia
                 </h1>
 
                 <p class="text-base sm:text-lg text-stone-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed text-justify">
-                    PT Surya Karya Energi menyediakan layanan EPC (Engineering, Procurement, Construction) yang fokus pada pembangunan pembangkitan listrik tenaga diesel (PLTD) dan pembangkitan listrik tenaga mesin gas (PLTMG). Dengan menggunakan EPC, kami menjamin proyek akan selesai tepat waktu, berkualitas dan sesuai standard dari PLN. Baik untuk kebutuhan listrik daerah terpencil maupun transisi ke energi lebih bersih. Kami siap menjadi mitra Anda.
+                    PT Surya Karya Energi menyediakan layanan EPC (Engineering, Procurement, Construction) yang fokus pada pembangunan pembangkitan listrik tenaga diesel (PLTD), pembangkitan listrik tenaga mesin gas (PLTMG), dan pembangkit listrik tenaga surya (PLTS). Dengan menggunakan EPC, kami menjamin proyek akan selesai tepat waktu, berkualitas dan sesuai standard dari PLN. Baik untuk kebutuhan listrik daerah terpencil maupun transisi ke energi lebih bersih. Kami siap menjadi mitra Anda.
                 </p>
 
                 <!-- CTA Buttons -->
@@ -50,11 +50,7 @@
                 <div class="pt-6 border-t border-stone-800/80 flex flex-wrap items-center justify-center lg:justify-start gap-y-2 gap-x-6 text-xs text-stone-400">
                     <span class="flex items-center space-x-1.5">
                         <svg class="w-4 h-4 text-brown-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Komponen Tier-1 Global</span>
-                    </span>
-                    <span class="flex items-center space-x-1.5">
-                        <svg class="w-4 h-4 text-brown-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Garansi Kinerja 25 Tahun</span>
+                        <span>Komponen Standar PLN & Global</span>
                     </span>
                     <span class="flex items-center space-x-1.5">
                         <svg class="w-4 h-4 text-brown-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -93,22 +89,18 @@
 <!-- STATS COUNTER STRIP -->
 <section class="bg-white border-y border-stone-200 py-10 shadow-sm relative z-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 text-center">
-            <div class="p-4 border-r last:border-none border-stone-200">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 text-center">
+            <div class="p-4 md:border-r border-stone-200">
                 <div class="text-3xl sm:text-4xl font-extrabold text-brown-600">{{ $stats['installed_capacity'] }}</div>
                 <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">Kapasitas Terpasang</div>
             </div>
-            <div class="p-4 border-r last:border-none border-stone-200">
+            <div class="p-4 md:border-r border-stone-200">
                 <div class="text-3xl sm:text-4xl font-extrabold text-brown-600">{{ $stats['projects_count'] }}</div>
                 <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">Proyek Selesai</div>
             </div>
-            <div class="p-4 border-r last:border-none border-stone-200">
-                <div class="text-3xl sm:text-4xl font-extrabold text-brown-600">{{ $stats['uptime'] }}</div>
-                <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">Uptime Sistem PLTS</div>
-            </div>
             <div class="p-4">
-                <div class="text-3xl sm:text-4xl font-extrabold text-brown-600">{{ $stats['co2_reduced'] }} Ton</div>
-                <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">Reduksi CO2 / Tahun</div>
+                <div class="text-3xl sm:text-4xl font-extrabold text-brown-600">{{ $stats['uptime'] }}</div>
+                <div class="text-xs sm:text-sm font-semibold text-stone-600 mt-1 uppercase tracking-wider">Uptime Sistem Pembangkit</div>
             </div>
         </div>
     </div>
@@ -122,40 +114,23 @@
                 Layanan Unggulan Kami
             </div>
             <h2 class="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight">
-                Solusi Energi Bersih Terintegrasi dari Hulu ke Hilir
+                Solusi Energi Terintegrasi dari Hulu ke Hilir
             </h2>
             <p class="text-stone-600 text-base leading-relaxed text-justify md:text-center">
-                Kami merancang, membangun, dan mengoperasikan sistem tenaga surya komersial dengan standar keandalan tinggi untuk menjaga stabilitas daya bisnis Anda.
+                Kami merancang, membangun, dan mengoperasikan sistem pembangkitan dengan standar keandalan tinggi menggunakan PLTD, PLTMG dan PLTS untuk menjaga stabilitas daya bisnis Anda.
             </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Service 1 -->
-            <div class="bg-white rounded-2xl p-7 border border-stone-200 hover:border-brown-400 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                    <div class="w-14 h-14 rounded-xl bg-brown-50 border border-brown-200 text-brown-600 flex items-center justify-center mb-6 group-hover:bg-brown-500 group-hover:text-white transition-colors duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">PLTS Atap Industri</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed text-justify">
-                        Pemanfaatan atap pabrik, gudang, dan gedung komersial untuk menekan biaya tagihan listrik PLN dan meningkatkan profil kepatuhan ESG perusahaan.
-                    </p>
-                </div>
-                <div class="mt-6 pt-4 border-t border-stone-100 flex items-center text-xs font-bold text-brown-600 group-hover:translate-x-1 transition-transform">
-                    <span>Pelajari Detail</span>
-                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                </div>
-            </div>
-
-            <!-- Service 2 -->
+            <!-- Service 1: PLTD & PLTMG -->
             <div class="bg-white rounded-2xl p-7 border border-stone-200 hover:border-brown-400 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-xl bg-brown-50 border border-brown-200 text-brown-600 flex items-center justify-center mb-6 group-hover:bg-brown-500 group-hover:text-white transition-colors duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">PLTS Skala Utilitas</h3>
+                    <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">PLTD / PLTMG Skala Utilitas</h3>
                     <p class="text-sm text-stone-600 leading-relaxed text-justify">
-                        Pembangunan pembangkit listrik tenaga surya skala besar (Ground-Mounted & Floating Solar) dengan kajian geoteknik dan sinkronisasi gardu induk bertegangan menengah/tinggi.
+                        Pembangunan dan pengoperasian pembangkit listrik tenaga diesel (PLTD) dan mesin gas (PLTMG) skala utilitas untuk keandalan daya primer serta penopang beban puncak industri dan kawasan strategis.
                     </p>
                 </div>
                 <div class="mt-6 pt-4 border-t border-stone-100 flex items-center text-xs font-bold text-brown-600 group-hover:translate-x-1 transition-transform">
@@ -164,7 +139,24 @@
                 </div>
             </div>
 
-            <!-- Service 3 -->
+            <!-- Service 2: PLTS -->
+            <div class="bg-white rounded-2xl p-7 border border-stone-200 hover:border-brown-400 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-brown-50 border border-brown-200 text-brown-600 flex items-center justify-center mb-6 group-hover:bg-brown-500 group-hover:text-white transition-colors duration-300">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">PLTS Atap & Skala Utilitas</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed text-justify">
+                        Pemanfaatan sistem tenaga surya fotovoltaik untuk rumah tinggal, gedung komersial, pabrik industri, hingga pembangunan PLTS skala utilitas ground-mounted terintegrasi.
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex items-center text-xs font-bold text-brown-600 group-hover:translate-x-1 transition-transform">
+                    <span>Pelajari Detail</span>
+                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </div>
+            </div>
+
+            <!-- Service 3: BESS -->
             <div class="bg-white rounded-2xl p-7 border border-stone-200 hover:border-brown-400 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-xl bg-brown-50 border border-brown-200 text-brown-600 flex items-center justify-center mb-6 group-hover:bg-brown-500 group-hover:text-white transition-colors duration-300">
@@ -181,15 +173,15 @@
                 </div>
             </div>
 
-            <!-- Service 4 -->
+            <!-- Service 4: O&M -->
             <div class="bg-white rounded-2xl p-7 border border-stone-200 hover:border-brown-400 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-xl bg-brown-50 border border-brown-200 text-brown-600 flex items-center justify-center mb-6 group-hover:bg-brown-500 group-hover:text-white transition-colors duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">O&M & IoT Monitoring</h3>
+                    <h3 class="text-xl font-bold text-stone-900 mb-3 group-hover:text-brown-600 transition-colors">Operasi & Pemeliharaan (O&M)</h3>
                     <p class="text-sm text-stone-600 leading-relaxed text-justify">
-                        Layanan operasional menyeluruh, pembersihan panel berkala, inspeksi termografi drone, dan pemantauan sensor performa jarak jauh selama 24/7.
+                        Layanan operasional menyeluruh, pemeliharaan preventif dan korektif, inspeksi teknis berkala, serta pemantauan sensor performa pembangkit selama 24/7.
                     </p>
                 </div>
                 <div class="mt-6 pt-4 border-t border-stone-100 flex items-center text-xs font-bold text-brown-600 group-hover:translate-x-1 transition-transform">
@@ -291,14 +283,14 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
                 <div class="w-12 h-12 rounded-xl bg-brown-500/20 border border-brown-500/40 text-brown-400 flex items-center justify-center font-bold text-xl">
                     01
                 </div>
-                <h3 class="text-lg font-bold text-white">Tier-1 PV & Inverter</h3>
+                <h3 class="text-lg font-bold text-white">Sertifikasi ISO 9001</h3>
                 <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
-                    Hanya mengaplikasikan modul fotovoltaik dan inverter berperingkat BloombergNEF Tier-1 untuk efisiensi konversi daya optimal.
+                    Penerapan Sistem Manajemen Mutu ISO 9001:2015 untuk menjamin standar rekayasa teknik presisi, pengadaan material berstandar internasional, dan eksekusi konstruksi terbaik.
                 </p>
             </div>
 
@@ -306,25 +298,15 @@
                 <div class="w-12 h-12 rounded-xl bg-brown-500/20 border border-brown-500/40 text-brown-400 flex items-center justify-center font-bold text-xl">
                     02
                 </div>
-                <h3 class="text-lg font-bold text-white">Garansi 25 Tahun</h3>
+                <h3 class="text-lg font-bold text-white">Monitoring IoT 24/7</h3>
                 <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
-                    Jaminan kinerja output daya hingga 25 tahun dengan komitmen penggantian dan kompensasi degradasi yang transparan.
+                    Akses dashboard telemetri real-time yang memantau performa kilowatt-hour, kondisi parameter operasional pembangkit, dan peringatan preventif otomatis.
                 </p>
             </div>
 
             <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
                 <div class="w-12 h-12 rounded-xl bg-brown-500/20 border border-brown-500/40 text-brown-400 flex items-center justify-center font-bold text-xl">
                     03
-                </div>
-                <h3 class="text-lg font-bold text-white">Monitoring IoT 24/7</h3>
-                <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
-                    Akses dashboard telemetri real-time yang memantau performa kilowatt-hour, radiasi surya, dan peringatan preventif otomatis.
-                </p>
-            </div>
-
-            <div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-2xl space-y-3">
-                <div class="w-12 h-12 rounded-xl bg-brown-500/20 border border-brown-500/40 text-brown-400 flex items-center justify-center font-bold text-xl">
-                    04
                 </div>
                 <h3 class="text-lg font-bold text-white">Zero Accident & K3</h3>
                 <p class="text-xs sm:text-sm text-stone-300 leading-relaxed text-justify">
@@ -342,7 +324,7 @@
             Siap Mengurangi Beban Biaya Listrik Industri Anda?
         </h2>
         <p class="text-brown-100 text-base max-w-2xl mx-auto leading-relaxed">
-            Dapatkan studi kelayakan teknis (Feasibility Study) dan simulasi penghematan investasi PLTS tanpa biaya untuk fasilitas Anda.
+            Dapatkan studi kelayakan teknis (Feasibility Study) dan simulasi penghematan investasi PLTD, PLTMG, dan PLTS tanpa biaya untuk fasilitas Anda.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
             <a href="{{ route('contact') }}" class="px-8 py-3.5 rounded-xl bg-stone-950 hover:bg-stone-900 text-white font-bold text-sm shadow-xl transition transform hover:-translate-y-0.5">

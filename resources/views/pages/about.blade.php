@@ -15,7 +15,7 @@
             Profil & Komitmen <span class="text-brown-400">PT Surya Karya Energi</span>
         </h1>
         <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed text-justify sm:text-center">
-            Menghadirkan keandalan pasokan energi surya terintegrasi untuk mendukung pertumbuhan sektor industri dan percepatan transisi energi hijau di Indonesia.
+            Menghadirkan keandalan pasokan energi terintegrasi untuk mendukung pertumbuhan sektor industri dan percepatan transisi energi hijau di Indonesia.
         </p>
     </div>
 </section>
@@ -29,10 +29,10 @@
                     Dedikasi Engineering Energi
                 </div>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 leading-tight">
-                    Mitra Terpercaya Solusi PLTS Industri & Skala Besar
+                    Mitra Terpercaya Solusi Energi Industri Untuk Skala Kecil & Skala Besar
                 </h2>
                 <p class="text-stone-600 text-base leading-relaxed text-justify">
-                    <strong>PT Surya Karya Energi (SKE)</strong> didirikan tahun 2019 dengan fokus pada pengelolaan dan optimalisasi PLTD dan PLTMG di wilayah strategis Indonesia. Kami menangani siklus proyek lengkap: persiapan, pembangunan, COD, operasi, dan pemeliharaan. Tim profesional kami mengawal proses secara menyeluruh di setiap lokasi proyek.
+                    <strong>PT Surya Karya Energi (SKE)</strong> didirikan tahun 2019 dengan fokus pada pengelolaan dan optimalisasi PLTD, PLTMG dan PLTS di wilayah strategis Indonesia. Kami menangani siklus proyek lengkap: persiapan, pembangunan, COD, operasi, dan pemeliharaan. Tim profesional kami mengawal proses secara menyeluruh di setiap lokasi proyek.
                 </p>
                 <div class="grid grid-cols-2 gap-4 pt-4 border-t border-stone-100 text-sm">
                     <div class="flex items-center space-x-2 text-stone-700">
@@ -49,7 +49,7 @@
                     </div>
                     <div class="flex items-center space-x-2 text-stone-700">
                         <svg class="w-5 h-5 text-brown-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        <span class="font-semibold">Garansi Output 25 Tahun</span>
+                        <span class="font-semibold">Tersertifikasi Laik Operasi (SLO)</span>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                 </div>
                 <h3 class="text-2xl font-extrabold text-white">Visi Perusahaan</h3>
                 <p class="text-stone-300 text-base leading-relaxed text-justify">
-                    Menjadi pemimpin penyedia solusi energi surya terintegrasi yang paling terpercaya, inovatif, dan berstandar internasional di Indonesia, mendorong kemandirian energi industri yang ramah lingkungan dan bernilai investasi tinggi.
+                    Menjadi perusahaan swasta terkemuka penyedia solusi energi konvensional andal dan efisien, serta memimpin transformasi energi terbarukan untuk masa depan hijau.
                 </p>
             </div>
 
@@ -93,19 +93,15 @@
                 <ul class="space-y-3 text-stone-300 text-sm leading-relaxed">
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-justify">Menghadirkan layanan EPC PLTS berkualitas tinggi dengan modul Tier-1 dan garansi performa terukur.</span>
+                        <span class="text-justify">Menjamin keandalan dan efisiensi operasional PLTD, PLTMG, dan PLTS.</span>
                     </li>
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-justify">Membantu sektor komersial dan manufaktur memangkas biaya operasional listrik hingga 40%.</span>
+                        <span class="text-justify">Membangun kemitraan jangka panjang yang saling menguntungkan dengan klien melalui layanan prima, transparan, dan berintegritas.</span>
                     </li>
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-justify">Menjunjung tinggi standar K3, tata kelola berintegritas, dan kepatuhan regulasi ESDM & PLN.</span>
-                    </li>
-                    <li class="flex items-start space-x-2.5">
-                        <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-justify">Mengakselerasi target Net Zero Emission Indonesia tahun 2060 melalui teknologi energi terbarukan terdepan.</span>
+                        <span class="text-justify">Mengembangkan teknologi, riset, dan sumber daya manusia untuk menjawab tantangan transisi energi masa depan.</span>
                     </li>
                 </ul>
             </div>
@@ -130,23 +126,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
-                <div class="text-2xl font-black text-brown-500">01. RELIABILITY</div>
-                <h3 class="text-lg font-bold text-stone-900">Keandalan Sistem</h3>
-                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
-                    Setiap kilowatt-hour yang dihasilkan dipastikan stabil, aman, dan dapat diandalkan untuk menopang produksi industri 24/7.
-                </p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
-                <div class="text-2xl font-black text-brown-500">02. SUSTAINABILITY</div>
-                <h3 class="text-lg font-bold text-stone-900">Keberlanjutan</h3>
-                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
-                    Fokus jangka panjang dalam menjaga kelestarian lingkungan dan membantu mitra bisnis memenuhi standar dekarbonisasi global.
-                </p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
-                <div class="text-2xl font-black text-brown-500">03. INTEGRITY</div>
+                <div class="text-2xl font-black text-brown-500">01. INTEGRITY</div>
                 <h3 class="text-lg font-bold text-stone-900">Integritas Bisnis</h3>
                 <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
                     Transparansi penuh dalam kalkulasi kapasitas, spesifikasi komponen orisinal, dan pemenuhan seluruh regulasi keselamatan.
@@ -154,10 +134,26 @@
             </div>
 
             <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
+                <div class="text-2xl font-black text-brown-500">02. CUSTOMER FOCUS</div>
+                <h3 class="text-lg font-bold text-stone-900">Fokus Pelanggan</h3>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
+                    Membangun kemitraan jangka panjang dengan mengutamakan kepuasan klien melalui solusi energi yang disesuaikan dan layanan prima.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
+                <div class="text-2xl font-black text-brown-500">03. RELIABILITY</div>
+                <h3 class="text-lg font-bold text-stone-900">Keandalan Sistem</h3>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
+                    Setiap kilowatt-hour yang dihasilkan dipastikan stabil, aman, dan dapat diandalkan untuk menopang kebutuhan operasional 24/7.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 shadow-sm space-y-3">
                 <div class="text-2xl font-black text-brown-500">04. INNOVATION</div>
                 <h3 class="text-lg font-bold text-stone-900">Inovasi Engineering</h3>
                 <p class="text-xs sm:text-sm text-stone-600 leading-relaxed text-justify">
-                    Penerapan teknologi solar PV bifacial terbaru, integrasi microgrid cerdas, dan telemetri pemantauan berbasis IoT.
+                    Penerapan teknologi modern, riset berkelanjutan, dan solusi pembangkitan cerdas untuk menjawab tantangan transisi energi masa depan.
                 </p>
             </div>
         </div>

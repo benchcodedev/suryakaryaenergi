@@ -21,10 +21,9 @@ class PublicController extends Controller
 
         // High-level company statistics
         $stats = [
-            'installed_capacity' => '45+ MWp',
-            'projects_count' => '120+',
+            'installed_capacity' => '17+ MWp',
+            'projects_count' => '4+',
             'uptime' => '99.4%',
-            'co2_reduced' => '68.000+',
         ];
 
         return view('pages.home', compact('featuredProjects', 'stats'));

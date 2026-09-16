@@ -158,8 +158,8 @@
                             <span class="font-bold text-emerald-700">{{ $project->status }}</span>
                         </div>
                         <div class="flex justify-between py-2 border-b border-stone-200/60">
-                            <span class="text-stone-500">Jaminan Kinerja</span>
-                            <span class="font-bold text-brown-600">25 Tahun Output</span>
+                            <span class="text-stone-500">Standar Kualitas</span>
+                            <span class="font-bold text-brown-600">Tersertifikasi SLO</span>
                         </div>
                     </div>
 

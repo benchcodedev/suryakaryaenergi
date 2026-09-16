@@ -15,7 +15,29 @@ class ProjectController extends Controller
         $query = Project::query();
 
         if ($category && $category !== 'all') {
-            $query->where('category', $category);
+            if ($category === 'PLTS / BESS') {
+                $query->where(function($q) {
+                    $q->where('category', 'PLTS / BESS')
+                      ->orWhere('category', 'like', '%PLTS%')
+                      ->orWhere('category', 'like', '%BESS%')
+                      ->orWhere('category', 'like', '%Solar%')
+                      ->orWhere('category', 'like', '%Storage%');
+                });
+            } elseif ($category === 'PLTD') {
+                $query->where(function($q) {
+                    $q->where('category', 'PLTD')
+                      ->orWhere('title', 'like', '%PLTD%')
+                      ->orWhere('description', 'like', '%PLTD%');
+                });
+            } elseif ($category === 'PLTMG') {
+                $query->where(function($q) {
+                    $q->where('category', 'PLTMG')
+                      ->orWhere('title', 'like', '%PLTMG%')
+                      ->orWhere('description', 'like', '%PLTMG%');
+                });
+            } else {
+                $query->where('category', $category);
+            }
         }
 
         if ($search) {
@@ -34,8 +56,9 @@ class ProjectController extends Controller
 
         $categories = [
             'all' => 'Semua Kategori',
-            'PLTS / Solar' => 'PLTS / Solar',
-            'BESS / Storage' => 'BESS / Storage',
+            'PLTD' => 'PLTD',
+            'PLTMG' => 'PLTMG',
+            'PLTS / BESS' => 'PLTS / BESS',
             'Infrastruktur & Substation' => 'Infrastruktur & Substation',
             'O&M / Asset Management' => 'O&M & Servis',
         ];
