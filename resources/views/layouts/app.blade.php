@@ -224,7 +224,7 @@
                         </div>
                     </a>
                     <p class="text-sm leading-relaxed text-stone-400 pr-4 text-justify">
-                        PT Surya Karya Energi adalah perusahaan EPC dan penyedia solusi energi surya (PLTS) industri terintegrasi di Indonesia. Berkomitmen menghadirkan keandalan pasokan listrik hijau berkualitas tinggi, efisiensi investasi jangka panjang, dan akselerasi target Net Zero Emission.
+                        PT Surya Karya Energi menyediakan layanan EPC (Engineering, Procurement, Construction) yang fokus pada pembangunan pembangkitan listrik tenaga diesel (PLTD), pembangkitan listrik tenaga mesin gas (PLTMG), dan pembangkit listrik tenaga surya (PLTS). Dengan menggunakan EPC, kami menjamin proyek akan selesai tepat waktu, berkualitas dan sesuai standard dari PLN. Baik untuk kebutuhan listrik daerah terpencil maupun transisi ke energi lebih bersih. Kami siap menjadi mitra Anda.
                     </p>
                     <div class="flex items-center space-x-3 pt-2">
                         <span class="px-3 py-1 bg-stone-900 border border-stone-800 rounded-md text-xs font-mono text-brown-400">ISO 9001:2015</span>
