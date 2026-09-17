@@ -28,7 +28,7 @@
                 <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-brown-500/20 border border-brown-500/30 text-brown-300 text-xs font-bold uppercase tracking-wider">
                     Visi & Arah Transformasi Berkelanjutan
                 </div>
-                <h2 class="text-2xl sm:text-3xl font-extrabold text-white leading-relaxed tracking-tight text-justify">
+                <h2 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-white leading-snug sm:leading-relaxed text-left sm:text-justify">
                     Menjadi perusahaan swasta terkemuka penyedia solusi energi konvensional andal dan efisien, serta memimpin transformasi energi terbarukan untuk masa depan hijau.
                 </h2>
                 <div class="pt-6 border-t border-stone-800">
@@ -40,7 +40,7 @@
                             <div class="w-10 h-10 rounded-xl bg-brown-500/20 text-brown-400 font-bold flex items-center justify-center text-sm">
                                 01
                             </div>
-                            <p class="text-sm text-stone-200 leading-relaxed text-justify">
+                            <p class="text-sm text-stone-200 leading-relaxed text-left sm:text-justify">
                                 Menjamin keandalan dan efisiensi operasional PLTD, PLTMG, dan PLTS.
                             </p>
                         </div>
@@ -48,7 +48,7 @@
                             <div class="w-10 h-10 rounded-xl bg-brown-500/20 text-brown-400 font-bold flex items-center justify-center text-sm">
                                 02
                             </div>
-                            <p class="text-sm text-stone-200 leading-relaxed text-justify">
+                            <p class="text-sm text-stone-200 leading-relaxed text-left sm:text-justify">
                                 Membangun kemitraan jangka panjang yang saling menguntungkan dengan klien melalui layanan prima, transparan, dan berintegritas.
                             </p>
                         </div>
@@ -56,7 +56,7 @@
                             <div class="w-10 h-10 rounded-xl bg-brown-500/20 text-brown-400 font-bold flex items-center justify-center text-sm">
                                 03
                             </div>
-                            <p class="text-sm text-stone-200 leading-relaxed text-justify">
+                            <p class="text-sm text-stone-200 leading-relaxed text-left sm:text-justify">
                                 Mengembangkan teknologi, riset, dan sumber daya manusia untuk menjawab tantangan transisi energi masa depan.
                             </p>
                         </div>

@@ -79,7 +79,7 @@
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                 </div>
                 <h3 class="text-2xl font-extrabold text-white">Visi Perusahaan</h3>
-                <p class="text-stone-300 text-base leading-relaxed text-justify">
+                <p class="text-stone-300 text-base leading-relaxed text-left sm:text-justify">
                     Menjadi perusahaan swasta terkemuka penyedia solusi energi konvensional andal dan efisien, serta memimpin transformasi energi terbarukan untuk masa depan hijau.
                 </p>
             </div>
@@ -93,15 +93,15 @@
                 <ul class="space-y-3 text-stone-300 text-sm leading-relaxed">
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-justify">Menjamin keandalan dan efisiensi operasional PLTD, PLTMG, dan PLTS.</span>
+                        <span class="text-left sm:text-justify">Menjamin keandalan dan efisiensi operasional PLTD, PLTMG, dan PLTS.</span>
                     </li>
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-justify">Membangun kemitraan jangka panjang yang saling menguntungkan dengan klien melalui layanan prima, transparan, dan berintegritas.</span>
+                        <span class="text-left sm:text-justify">Membangun kemitraan jangka panjang yang saling menguntungkan dengan klien melalui layanan prima, transparan, dan berintegritas.</span>
                     </li>
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-justify">Mengembangkan teknologi, riset, dan sumber daya manusia untuk menjawab tantangan transisi energi masa depan.</span>
+                        <span class="text-left sm:text-justify">Mengembangkan teknologi, riset, dan sumber daya manusia untuk menjawab tantangan transisi energi masa depan.</span>
                     </li>
                 </ul>
             </div>
