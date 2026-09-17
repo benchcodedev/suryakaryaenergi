@@ -14,7 +14,7 @@
         <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
             Hubungi Tim <span class="text-brown-400">Surya Karya Energi</span>
         </h1>
-        <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed text-justify">
             Mulai langkah efisiensi energi fasilitas bisnis Anda bersama tim konsultan teknik bersertifikasi kami.
         </p>
     </div>

@@ -14,7 +14,7 @@
         <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
             Komitmen Keberlanjutan & <span class="text-brown-400">Dampak ESG</span>
         </h1>
-        <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed text-justify">
             Menghubungkan target dekarbonisasi korporasi dengan solusi energi nyata yang terukur, transparan, dan berdampak positif bagi bumi.
         </p>
     </div>
