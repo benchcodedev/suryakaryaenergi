@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Tentang Kami - PT Surya Karya Energi')
-@section('meta_description', 'Profil, visi, misi, dan nilai-nilai inti PT Surya Karya Energi sebagai mitra EPC PLTS dan solusi energi bersih terdepan di Indonesia.')
+@section('meta_description', 'Profil, visi, misi, dan nilai-nilai inti PT Surya Karya Energi sebagai penyedia solusi energi terintegrasi PLTD, PLTMG, dan PLTS terdepan di Indonesia.')
 
 @section('content')
 
