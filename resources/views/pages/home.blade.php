@@ -64,9 +64,9 @@
                 <div class="relative mx-auto max-w-md lg:max-w-none">
                     <div class="absolute -inset-1.5 bg-gradient-to-r from-brown-500 to-gold-400 rounded-3xl blur-lg opacity-30"></div>
                     <div class="relative bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden shadow-2xl p-2">
-                        <img src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1000&q=80" 
-                             alt="Instalasi Panel Surya Industri PT Surya Karya Energi" 
-                             class="w-full h-80 sm:h-96 object-cover rounded-xl">
+                        <img src="{{ asset('images/hero-ske.jpg') }}" 
+                             alt="Operasional Lapangan Pembangkit Listrik PT Surya Karya Energi" 
+                             class="w-full h-80 sm:h-96 object-cover rounded-xl object-center">
                         
                         <!-- Floating Highlight Card -->
                         <div class="absolute bottom-6 left-6 right-6 bg-stone-900/90 backdrop-blur-md border border-brown-500/40 p-4 rounded-xl shadow-lg flex items-center space-x-4">
@@ -74,8 +74,8 @@
                                 <img src="{{ asset('images/logo-emblem.png') }}" alt="Emblem SKE" class="w-8 h-8 object-contain">
                             </div>
                             <div class="text-xs">
-                                <div class="font-bold text-white text-sm">Industrial Rooftop Solar PV</div>
-                                <div class="text-brown-300">Efisiensi Biaya Listrik hingga 40%</div>
+                                <div class="font-bold text-white text-sm">Operasional PLTD, PLTMG &amp; PLTS</div>
+                                <div class="text-brown-300">Keandalan Sistem &amp; Standar K3 Terjamin</div>
                             </div>
                         </div>
                     </div>
