@@ -74,18 +74,18 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <!-- Visi -->
-            <div class="bg-stone-800/90 border border-stone-700 p-8 sm:p-10 rounded-3xl space-y-4 relative">
+            <div class="bg-stone-800/90 border border-stone-700 p-6 sm:p-10 rounded-3xl space-y-4 relative">
                 <div class="w-14 h-14 rounded-2xl bg-brown-500/20 border border-brown-500 text-brown-400 flex items-center justify-center mb-6">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                 </div>
                 <h3 class="text-2xl font-extrabold text-white">Visi Perusahaan</h3>
-                <p class="text-stone-300 text-base leading-relaxed text-left sm:text-justify">
+                <p class="text-stone-300 text-sm sm:text-base leading-relaxed text-justify [text-align-last:left] [text-justify:inter-word] [hyphens:auto]">
                     Menjadi perusahaan swasta terkemuka penyedia solusi energi konvensional andal dan efisien, serta memimpin transformasi energi terbarukan untuk masa depan hijau.
                 </p>
             </div>
 
             <!-- Misi -->
-            <div class="bg-stone-800/90 border border-stone-700 p-8 sm:p-10 rounded-3xl space-y-4 relative">
+            <div class="bg-stone-800/90 border border-stone-700 p-6 sm:p-10 rounded-3xl space-y-4 relative">
                 <div class="w-14 h-14 rounded-2xl bg-brown-500/20 border border-brown-500 text-brown-400 flex items-center justify-center mb-6">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                 </div>
@@ -93,15 +93,15 @@
                 <ul class="space-y-3 text-stone-300 text-sm leading-relaxed">
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-left sm:text-justify">Menjamin keandalan dan efisiensi operasional PLTD, PLTMG, dan PLTS.</span>
+                        <span class="text-justify [text-align-last:left] [text-justify:inter-word]">Menjamin keandalan dan efisiensi operasional PLTD, PLTMG, dan PLTS.</span>
                     </li>
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-left sm:text-justify">Membangun kemitraan jangka panjang yang saling menguntungkan dengan klien melalui layanan prima, transparan, dan berintegritas.</span>
+                        <span class="text-justify [text-align-last:left] [text-justify:inter-word]">Membangun kemitraan jangka panjang yang saling menguntungkan dengan klien melalui layanan prima, transparan, dan berintegritas.</span>
                     </li>
                     <li class="flex items-start space-x-2.5">
                         <span class="text-brown-400 font-bold mt-0.5 shrink-0">&bull;</span>
-                        <span class="text-left sm:text-justify">Mengembangkan teknologi, riset, dan sumber daya manusia untuk menjawab tantangan transisi energi masa depan.</span>
+                        <span class="text-justify [text-align-last:left] [text-justify:inter-word]">Mengembangkan teknologi, riset, dan sumber daya manusia untuk menjawab tantangan transisi energi masa depan.</span>
                     </li>
                 </ul>
             </div>
