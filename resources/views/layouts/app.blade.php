@@ -237,9 +237,9 @@
                 <div class="space-y-3">
                     <h3 class="text-white text-sm font-bold uppercase tracking-wider">Solusi & Layanan</h3>
                     <ul class="space-y-2 text-sm">
+                        <li><a href="{{ route('projects.index', ['category' => 'PLTD']) }}" class="hover:text-brown-400 transition">PLTD / PLTMG Skala Utilitas</a></li>
                         <li><a href="{{ route('projects.index', ['category' => 'PLTS / BESS']) }}" class="hover:text-brown-400 transition">PLTS Atap (Rooftop)</a></li>
                         <li><a href="{{ route('projects.index', ['category' => 'PLTS / BESS']) }}" class="hover:text-brown-400 transition">PLTS Ground-Mounted Skala Utilitas</a></li>
-                        <li><a href="{{ route('projects.index', ['category' => 'PLTD']) }}" class="hover:text-brown-400 transition">PLTD / PLTMG Skala Utilitas</a></li>
                         <li><a href="{{ route('projects.index', ['category' => 'PLTS / BESS']) }}" class="hover:text-brown-400 transition">Battery Energy Storage (BESS)</a></li>
                         <li><a href="{{ route('projects.index', ['category' => 'Infrastruktur & Substation']) }}" class="hover:text-brown-400 transition">Substation & Gardu Hubung</a></li>
                         <li><a href="{{ route('projects.index', ['category' => 'O&M / Asset Management']) }}" class="hover:text-brown-400 transition">Operasi & Pemeliharaan (O&M)</a></li>
